@@ -28,7 +28,7 @@ export default function About() {
         <>
         <Layout headerStyle={1} footerStyle={5} breadcrumbTitle="About Us"  >
         {/*About One Start */}
-        <section className="about-one about-seven">
+        <section className="about-one about-seven" style={{marginBottom:'-150px'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6">
@@ -80,12 +80,12 @@ export default function About() {
 
         {/* Counter Two Start */}
         <section className="counter-two">
-            <div className="counter-two__bg-box">
+            {/* <div className="counter-two__bg-box">
                 <div className="counter-two__bg"
                     style={{ backgroundImage: 'url(assets/images/backgrounds/counter-two-bg.png' }} ></div>
-            </div>
+            </div> */}
             <div className="container">
-                <div className="counter-two__top">
+                {/* <div className="counter-two__top">
                     <div className="section-title text-left">
                         <div className="section-title__tagline-box">
                         </div>
@@ -93,7 +93,7 @@ export default function About() {
                         We provide tailored services <br/>and build strong partnerships</h2>
                     </div>
                     <p className="counter-two__top-text">Our success is measured by our contribution to our clients' business success</p>
-                </div>
+                </div> */}
                 {/* <div className="counter-two__bottom">
                     <div className="row">
                         <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
@@ -224,13 +224,13 @@ export default function About() {
         {/*Contact Two End */}
 
         {/* Success One Start */}
-        <section className="success-one" style={{marginTop:'130px',marginBottom:'40px'}}>
+        <section className="success-one" >
             <div className="success-one__shape-1">
-                <img src="assets/images/shapes/success-one-shape-1.png" alt=""/>
+                <img src="/assets/images/allimg/Why.webp" alt=""/>
             </div>
             <div className="success-one__img-box">
                 <div className="success-one__img">
-                    <img src="assets/images/resources/success-one-img-1.jpg" alt=""/>
+                    <img src="/assets/images/allimg/Why.webp" alt="" style={{height:'400px',marginTop:'230px'}}/>
                 </div>
                 {/* <div className="success-one__counter">
                     <ul className="list-unstyled success-one__counter-list">

@@ -1,4 +1,4 @@
-// File: D:\Freelance work in ms creation\teamArabia-main\teamArabia-main\app\about\page.js
+// File: C:\Work\host-team-arabia-main\host-team-arabia-main\app\about\page.js
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

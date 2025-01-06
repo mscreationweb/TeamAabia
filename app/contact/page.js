@@ -33,7 +33,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <div className="icon">
                                         <span className="icon-call"></span>
                                     </div>
@@ -45,7 +45,7 @@ export default function Home() {
                                         <p><Link href="tel:966 50591 5463">+966 50591 5463
                                         </Link></p>
                                     </div>
-                                </li>
+                                </li> */}
                                 <li>
                                     <div className="icon">
                                         <span className="icon-email"></span>

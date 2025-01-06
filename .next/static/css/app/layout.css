@@ -9581,10 +9581,17 @@ ul {
   position: relative;
   display: block;
   background-color: var(--elitecons-black);
-  padding: 130px 0 130px;
+  padding: 100px 0 130px;
   z-index: 1;
 }
+@media (max-width: 768px) {
+  .success-one__img-box {
+    background-color: transparent;
+    height: 60%;
+    margin-top: -190px;
 
+  }
+}
 .success-one__shape-1 {
   position: absolute;
   bottom: 0;

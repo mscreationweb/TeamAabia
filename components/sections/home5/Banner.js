@@ -8,10 +8,10 @@ export default function Banner5() {
         {/* Banner One Start */}
         <section className="banner-one">
             <div className="banner-one__sec-img-1">
-                <img src="assets/images/resources/banner-one-sec-img-1.png" alt="" className="float-bob-x"/>
+                {/* <img src="assets/images/resources/banner-one-sec-img-1.png" alt="" className="float-bob-x"/> */}
             </div>
             <div className="banner-one__sec-img-2">
-                <img src="assets/images/resources/banner-one-sec-img-2.png" alt=""/>
+                {/* <img src="assets/images/resources/banner-one-sec-img-2.png" alt=""/> */}
             </div>
             <div className="container">
                 <div className="banner-one__top">
@@ -41,7 +41,7 @@ export default function Banner5() {
                         <img src="assets/images/shapes/banner-one-img-shape-1.png" alt=""/>
                     </div>
                     <div className="banner-one__img-shape-2">
-                        <img src="assets/images/shapes/banner-one-img-shape-2.png" alt=""/>
+                        {/* <img src="assets/images/shapes/banner-one-img-shape-2.png" alt=""/> */}
                     </div>
                 </div>
             </div>

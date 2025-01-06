@@ -87,11 +87,11 @@ export default function Footer5() {
                                         <h3 className="footer-widget-five__title">Contact</h3>
                                     </div>
                                     <ul className="footer-widget-five__contact-list list-unstyled">
-                                        <li>
+                                        {/* <li>
                                             <p>Requesting A Call:</p>
                                             <Link href="tel:966 539402676">+966 539402676</Link><br/>
                                             <Link href="tel:+966 50591 5463">+966 50591 5463</Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <p>Our E-mail:</p>
                                             <Link href="mailto:info@teamarabiaksa.com">info@teamarabiaksa.com</Link>
