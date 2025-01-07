@@ -60,9 +60,9 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                                             <Link href="#" className="mobile-nav__toggler" onClick={handleMobileMenu}><i className="fa fa-bars"></i></Link>
                                             <Menu/>
                                         </div>
-                                        <div className="main-menu__search-box">
+                                        {/* <div className="main-menu__search-box">
                                             <Link href="#" className="main-menu__search search-toggler icon-search" onClick={handlePopup}></Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     {/* <div className="main-menu__call">
                                         <div className="main-menu__call-icon">
