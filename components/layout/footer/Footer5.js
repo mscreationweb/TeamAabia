@@ -122,7 +122,7 @@ export default function Footer5() {
                 <div className="container">
                     <div className="site-footer-five__bottom-inner">
                         <p className="site-footer-five__bottom-text">
-                        © 2025 Team Arabia|Designed By <a href="https://mscreation.tech/" target="_blank">M S Creation</a></p>
+                        © 2025 Team Arabia | Designed By <a href="https://mscreation.tech/" target="_blank">M S Creation</a></p>
                         {/* <ul className="list-unstyled site-footer-five__bottom-menu">
                             <li><Link href="about">Trams & Condition</Link></li>
                             <li><Link href="about">Privacy Policy</Link></li>
