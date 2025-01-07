@@ -267,25 +267,25 @@ export default function About() {
                                     {/* <div className="success-one__points-icon">
                                         <span className="icon-constructo-pro"></span>
                                     </div> */}
-                                    <p className="success-one__points-text"><Link href="service-details">Comprehensive Solutions</Link></p>
+                                    <p className="success-one__points-text"> <span class="icon-dabble-arrow-right"></span> Comprehensive Solutions</p>
                                 </li>
                                 <li>
                                     {/* <div className="success-one__points-icon">
                                         <span className="icon-proconstruct"></span>
                                     </div> */}
-                                    <p className="success-one__points-text"><Link href="service-details">Commitment to Excellence</Link></p>
+                                    <p className="success-one__points-text"> <span class="icon-dabble-arrow-right"></span> Commitment to Excellence</p>
                                 </li>
                                 <li>
                                     {/* <div className="success-one__points-icon">
                                         <span className="icon-proconstruct"></span>
                                     </div> */}
-                                    <p className="success-one__points-text"><Link href="service-details">Reliable Partnerships</Link></p>
+                                    <p className="success-one__points-text"><span class="icon-dabble-arrow-right"></span> Reliable Partnerships</p>
                                 </li>
                                 <li>
                                     {/* <div className="success-one__points-icon">
                                         <span className="icon-proconstruct"></span>
                                     </div> */}
-                                    <p className="success-one__points-text"><Link href="service-details">Customer-Centric Approach</Link></p>
+                                    <p className="success-one__points-text"> <span class="icon-dabble-arrow-right"></span> Customer-Centric Approach</p>
                                 </li>
                             </ul>
                             {/* <div className="success-one__btn-box">

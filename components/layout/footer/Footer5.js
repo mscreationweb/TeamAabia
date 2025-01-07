@@ -21,8 +21,7 @@ export default function Footer5() {
                                         <Link href="/"><img src="assets/images/allimg/logo/Team Logo.png"
                                                 alt="" style={{height:'50px'}}/></Link>
                                     </div>
-                                    <p className="footer-widget-five__about-text">It is a long established ft that a will
-                                        being li distracted by the content of amj page ghjkl when looking</p>
+                                    <p className="footer-widget-five__about-text">Team Arabia provides consultation, staffing, HR outsourcing, and heavy equipment supply in Saudi Arabia.</p>
                                     <div className="site-footer-five__social">
                                     <Link href="mailto:info@teamarabiaksa.com"><i className="icon-email"></i></Link>
                                         <Link href="#"><i className="icon-Frame"></i></Link>
@@ -123,7 +122,7 @@ export default function Footer5() {
                 <div className="container">
                     <div className="site-footer-five__bottom-inner">
                         <p className="site-footer-five__bottom-text">
-                        © 2024 Team Arabia|Designed By <a href="https://mscreation.tech/" target="_blank">M S Creation</a></p>
+                        © 2025 Team Arabia|Designed By <a href="https://mscreation.tech/" target="_blank">M S Creation</a></p>
                         {/* <ul className="list-unstyled site-footer-five__bottom-menu">
                             <li><Link href="about">Trams & Condition</Link></li>
                             <li><Link href="about">Privacy Policy</Link></li>

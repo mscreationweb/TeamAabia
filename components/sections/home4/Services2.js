@@ -1,9 +1,22 @@
 'use client'
 import Link from "next/link"
+import { useEffect, useState } from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 export default function Services2() {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 991);
+      };
+  
+      handleResize(); // Check on component mount
+      window.addEventListener('resize', handleResize);
+  
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
     return (
         <>
         {/* Services Eight Start */}
@@ -15,6 +28,8 @@ export default function Services2() {
                     </div>
                     <h2 className="section-title__title">Constructing dreams one <br /> brick at a time</h2>
                 </div>
+
+
                 <div className="services-eight__carousel-box">
                     <Swiper
                         modules={[Autoplay, Pagination, Navigation]}
@@ -97,6 +112,73 @@ export default function Services2() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
+
+
+
+{/* hide */}
+<div
+      className="services-eight__carousel-box"
+      style={{
+        display: isMobile ? 'block' : 'none',
+      }}
+    >
+      <Swiper
+        modules={[Autoplay, Pagination, Navigation]}
+        slidesPerView={2}
+        spaceBetween={0}
+        loop={true}
+        navigation={{
+          nextEl: '.h1n',
+          prevEl: '.h1p',
+        }}
+        pagination={{
+          el: '.swiper-pagination',
+          clickable: true,
+        }}
+        breakpoints={{
+          320: { slidesPerView: 1, spaceBetween: 30 },
+          575: { slidesPerView: 1, spaceBetween: 30 },
+          767: { slidesPerView: 1, spaceBetween: 30 },
+          991: { slidesPerView: 2, spaceBetween: 30 },
+          1199: { slidesPerView: 2, spaceBetween: 30 },
+          1350: { slidesPerView: 2, spaceBetween: 30 },
+        }}
+        className="thm-swiper__slider swiper-container"
+      >
+        <SwiperSlide>
+          <div className="services-eight__single">
+            <div className="services-eight__img-box">
+              <div className="services-eight__img">
+                <img src="assets/images/allimg/service/Trading.webp" alt="" />
+              </div>
+            </div>
+            <div className="services-eight__content">
+              <div className="services-eight__title-box">
+                <div className="services-eight__icon">
+                  <span className="icon-analytics"></span>
+                </div>
+                <h4 className="services-eight__title">Trading</h4>
+              </div>
+              <p className="services-eight__text">
+                Supply of premium construction materials: aggregates, sand, concrete, and steel. Reliable sourcing and
+                logistics for timely project support. Competitive pricing and superior service tailored to client needs.
+                Commitment to delivering materials that meet industry standards.
+              </p>
+              <div className="services-eight__btn-box">
+                <Link href="contact" className="services-eight__btn thm-btn">
+                  Contact Us<span className="icon-dabble-arrow-right"></span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </div>
+
+{/* hide */}
+
+
+
                 <div className="services-eight__carousel-box" style={{marginTop:'30px'}}>
                     <Swiper
                         modules={[Autoplay, Pagination, Navigation]}
@@ -176,6 +258,65 @@ export default function Services2() {
                     </Swiper>
                 </div>
 
+
+{/* hide */}
+<div
+      className="services-eight__carousel-box"
+      style={{
+        display: isMobile ? 'block' : 'none',
+      }}
+    >
+      <Swiper
+        modules={[Autoplay, Pagination, Navigation]}
+        slidesPerView={2}
+        spaceBetween={0}
+        loop={true}
+        navigation={{
+          nextEl: '.h1n',
+          prevEl: '.h1p',
+        }}
+        pagination={{
+          el: '.swiper-pagination',
+          clickable: true,
+        }}
+        breakpoints={{
+          320: { slidesPerView: 1, spaceBetween: 30 },
+          575: { slidesPerView: 1, spaceBetween: 30 },
+          767: { slidesPerView: 1, spaceBetween: 30 },
+          991: { slidesPerView: 2, spaceBetween: 30 },
+          1199: { slidesPerView: 2, spaceBetween: 30 },
+          1350: { slidesPerView: 2, spaceBetween: 30 },
+        }}
+        className="thm-swiper__slider swiper-container"
+      >
+        <SwiperSlide>
+          <div className="services-eight__single">
+            <div className="services-eight__img-box">
+              <div className="services-eight__img">
+                <img src="assets/images/allimg/service/Heavy.webp" alt="" />
+              </div>
+            </div>
+            <div className="services-eight__content">
+              <div className="services-eight__title-box">
+                <div className="services-eight__icon">
+                  <span className="icon-analytics"></span>
+                </div>
+                <h4 className="services-eight__title">Heavy Equipment Rental</h4>
+              </div>
+              <p className="services-eight__text">
+              Construction is the process of designing, planning, and building infrastructure like buildings, bridges, and roads, combining expertise, creativity, and sustainability to create functional, lasting environments that support societal growth.
+              </p>
+              <div className="services-eight__btn-box">
+                <Link href="contact" className="services-eight__btn thm-btn">
+                  Contact Us<span className="icon-dabble-arrow-right"></span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </div>
+{/* hide */}
 
                 <div className="services-eight__carousel-box" style={{marginTop:'30px',marginBottom:'20px'}}>
                     <Swiper

@@ -89,7 +89,7 @@ export default function Home() {
                         </div>
                         <h2 className="section-title__title">Send us a message</h2>
                     </div>
-                    <form action="assets/inc/sendemail.php" className="contact-three__form contact-form-validated">
+                    <form action="/" className="contact-three__form contact-form-validated">
                         <div className="row">
                             <div className="col-xl-3 col-lg-6">
                                 <div className="contact-three__input-box">
