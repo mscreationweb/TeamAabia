@@ -57,7 +57,7 @@ export default function Banner() {
                                             <p className="main-slider__sub-title">welcome to Team Arabia</p>
                                             <div className="main-slider__sub-title-shape"></div>
                                         </div>
-                                        <h2 className="main-slider__title" style={{fontSize:'50px'}}>Your Partner in Progress and Performance</h2>
+                                        <h2 className="main-slider__title">Your Partner in Progress and Performance</h2>
                                         <p className="main-slider__text">With a focus on reliability, innovation, and quality, we empower businesses to achieve their goals seamlessly
 
                                         </p>
@@ -100,7 +100,7 @@ export default function Banner() {
                                             <p className="main-slider__sub-title">welcome to Team Arabia</p>
                                             <div className="main-slider__sub-title-shape"></div>
                                         </div>
-                                        <h2 className="main-slider__title" style={{fontSize:'50px'}}>Strength You Can Rely On, <br/>Service You Can Trust</h2>
+                                        <h2 className="main-slider__title">Strength You Can Rely On, <br/>Service You Can Trust.</h2>
                                         <p className="main-slider__text">Partner with us to transform challenges into opportunities and bring your vision to life
                                         </p>
                                         <div className="main-slider__btn-and-video-box">

@@ -20,7 +20,7 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={1} footerStyle={5}>
-                <Banner />
+                <Banner/>
                 {/* <Services/> */}
                 <About/>
                 <Services2/>
